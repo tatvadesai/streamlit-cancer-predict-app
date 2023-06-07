@@ -178,7 +178,7 @@ def main():
     
     with st.container():
         st.title("Breast Cancer Predictor")
-        st.write("This is some description.")
+        st.write("This app takes in data directly from the machine(if connected). You can change the parameters from the sidebar to see the effects.")
         
     col1, col2 = st.columns([4,1])
     
